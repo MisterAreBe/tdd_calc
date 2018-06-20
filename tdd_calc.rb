@@ -9,6 +9,7 @@ def calc_checker(x, y)
 end
 
 def calc_add(x, y)
+    unless calc_checker(x, y); return false; end
     return x + y
 end
 
