@@ -11,4 +11,10 @@ class TestTddCalc < Minitest::Test
         assert_equal(4, calc_add(2, 2))
     end
 
+    def test_123_plus_987
+        assert_equal(1110, calc_add(123, 987))
+    end
+
+
+
 end
