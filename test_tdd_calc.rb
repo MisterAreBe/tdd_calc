@@ -43,4 +43,8 @@ class TestTddCalc < Minitest::Test
         assert_equal(0, calc_div(12, 0))
     end
 
+    def test_only_numbers
+        assert_equal(false, calc_checker(1, "6"))
+    end
+
 end
