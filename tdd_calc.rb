@@ -1,7 +1,8 @@
 def calc_checker(x, y)
-    if y.class != Integer || y.class != Float
+    if y.class != Integer && y.class != Float
         return false
     end
+    return true
 end
 
 def calc_add(x, y)
