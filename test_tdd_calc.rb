@@ -7,4 +7,8 @@ class TestTddCalc < Minitest::Test
         assert_equal(1, 1)
     end
 
+    def test_2_plus_2
+        assert_equal(4, calc_add(2, 2))
+    end
+
 end
