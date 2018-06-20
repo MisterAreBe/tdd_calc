@@ -22,5 +22,9 @@ class TestTddCalc < Minitest::Test
     def test_100_minus_150_is_negative_50
         assert_equal(-50, calc_sub(100, 150))
     end
+
+    def test_5_times_3_is_15
+        assert_equal(15, calc_mult(5, 3))
+    end
     
 end
