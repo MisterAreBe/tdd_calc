@@ -39,5 +39,8 @@ class TestTddCalc < Minitest::Test
         assert_equal(100, calc_div(400, 4))
     end
 
-    
+    def test_can_not_divide_by_0
+        assert_equal(0, calc_div(12, 0))
+    end
+
 end
