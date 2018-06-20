@@ -9,3 +9,7 @@ end
 def calc_mult(x, y)
     return x * y
 end
+
+def calc_div(x, y)
+    return x / y
+end
