@@ -11,5 +11,9 @@ def calc_mult(x, y)
 end
 
 def calc_div(x, y)
-    return x / y
+    if y == 0
+        return 0
+    else
+        return x / y
+    end
 end
