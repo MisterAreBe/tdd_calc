@@ -30,5 +30,8 @@ class TestTddCalc < Minitest::Test
     def test_100_times_12_is_1200
         assert_equal(1200, calc_mult(100, 12))
     end
-    
+
+    def test_42_divid_2_is_21
+        assert_equal(21, calc_div(42, 2))
+    end
 end
