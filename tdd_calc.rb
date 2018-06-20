@@ -14,14 +14,17 @@ def calc_add(x, y)
 end
 
 def calc_sub(x, y)
+    unless calc_checker(x, y); return false; end
     return x - y
 end
 
 def calc_mult(x, y)
+    unless calc_checker(x, y); return false; end
     return x * y
 end
 
 def calc_div(x, y)
+    unless calc_checker(x, y); return false; end
     if y == 0
         return 0
     else

@@ -52,6 +52,9 @@ class TestTddCalc < Minitest::Test
 
     def test_if_numbers
         assert_equal(false, calc_add("mr.", "popo"))
+        assert_equal(false, calc_sub("ka", "mi"))
+        assert_equal(false, calc_mult("go", "ku"))
+        assert_equal(false, calc_div("veg", "eta"))
     end
 
 end
